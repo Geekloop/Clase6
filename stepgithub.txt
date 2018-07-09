@@ -1,0 +1,9 @@
+Desde la carpeta donde quiera dejar el repositorio creado en github 
+Git clone <link> <-- se clonara el repositorio al computador 
+Copiar archivos desde la carpeta origen --> copy <archivo> <ruta destino> 
+<<Ir a ruta donde se encuentra la carpeta del repositorio>>
+git add .  <-- Agregar todos los archivos al repositorio 
+git add <name> <-- Agregar archivo al repositorio
+git commit –m “mensaje” <-- Agregar un commit al archivo subido
+git push <-- Subir contenido
+git pull <-- Actualizar contenido 
