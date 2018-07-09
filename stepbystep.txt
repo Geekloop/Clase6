@@ -1,0 +1,15 @@
+INSTALAR DJANGO
+https://pip.pypa.io/en/latest/installing/ 
+Para instalar get-pip.py dirigete a https://bootstrap.pypa.io/get-pip.py
+Click derecho, "Guardar como" y guardar en una nueva carpeta.
+luego se ejecuta get-pip.py en cmd "python get-pip.py"
+dirigirse a la carpeta donde se instalo pip (en mi caso C:\Python27\Scripts>) y ejecutar "pip install virtualenv"
+ingresar a la nueva carpeta scripts (en mi caso C:\Python27\Scripts\Scripts>) y ejecutar activate <- activar 
+ingresar el comando "django-admin.py startproject mysite" el cual va a mostrar un error porque aun no se instala Django
+ingresar el comando "pip install django" para instalar django
+"dir" veremos que se crearon nuevas carpetas
+Ingresar el comando "django-admin startproject mysite" con el cual daremos inicio al proyecto
+"dir" y veremos que creo nuevas carpetas del proyecto
+luego ingresamos el comando "python manage.py runserver" para inciar el servidor.
+al inciar nos dara una ip (127.0.0.1:8000), la cual copiaremos a un navegador y mostrara la apgina de inicio del servidor!
+IT WORKED!
